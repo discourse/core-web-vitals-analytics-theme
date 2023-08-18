@@ -1,5 +1,5 @@
 import { apiInitializer } from "discourse/lib/api";
-import { getCLS, getFID, getLCP } from "../vendor/web-vitals";
+import { getCLS, getFID, getLCP } from "../../vendor/web-vitals";
 
 // Implementation based on https://github.com/GoogleChrome/web-vitals#using-gtagjs-universal-analytics
 function sendToGoogleAnalytics({ name, delta, id }) {
