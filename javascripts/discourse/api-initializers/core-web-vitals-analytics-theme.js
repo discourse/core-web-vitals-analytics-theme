@@ -1,3 +1,4 @@
+/* global gtag */
 import { apiInitializer } from "discourse/lib/api";
 import { getCLS, getFID, getLCP } from "../../vendor/web-vitals";
 
