@@ -12,7 +12,7 @@ function sendToGoogleAnalytics({ name, delta, id }) {
   });
 }
 
-export default apiInitializer("0.11.1", () => {
+export default apiInitializer(() => {
   getCLS(sendToGoogleAnalytics);
   getFID(sendToGoogleAnalytics);
   getLCP(sendToGoogleAnalytics);
